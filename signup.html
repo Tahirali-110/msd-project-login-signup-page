@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign up for Vignan University Student Clubs Portal to join clubs, vote, and share ideas.">
+  <meta name="keywords" content="Vignan University, student clubs, signup, student council">
+  <title>Sign Up - Vignan University Student Clubs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Vignan University Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/40';">
+      </div>
+      <a href="index.html" class="btn">Back to Home</a>
+    </nav>
+  </header>
+
+  <section class="signup-section">
+    <div class="signup-container">
+      <h2>Join Our Community!</h2>
+      <p>Sign up to connect with clubs and campus activities.</p>
+      <form id="signup-form">
+        <label for="student-id">Student ID</label>
+        <input type="text" id="student-id" name="student-id" required>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <label for="photo">Profile Photo (Optional)</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+        <p><a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></p>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="login.html" class="btn">Log In</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Vignan University. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

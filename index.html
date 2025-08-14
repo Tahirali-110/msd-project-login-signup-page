@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vignan University Student Clubs Portal - Join clubs, vote, share ideas, and stay updated with campus activities.">
+  <meta name="keywords" content="Vignan University, student clubs, student council, campus activities, voting, ideas">
+  <meta name="author" content="Vignan University">
+  <meta property="og:title" content="Vignan University Student Clubs Portal">
+  <meta property="og:description" content="Connect with clubs, vote on ideas, and engage with the Vignan University community.">
+  <meta property="og:image" content="https://vignanuniversity.example.com/images/og-image.jpg">
+  <meta property="og:url" content="https://vignanuniversity.example.com">
+  <meta property="og:type" content="website">
+  <title>Vignan University Student Clubs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="logo">
+        <img src="logo.png" alt="Vignan University Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/40';">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#clubs">Clubs</a></li>
+        <li><a href="#voting">Voting</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="btn-login">Login</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" role="banner">
+    
+    <div class="hero-content">
+      <h1>Welcome to Vignan University Student Clubs Portal</h1>
+      <p>Join clubs, vote on ideas, and engage with your campus community!</p>
+      <div class="hero-buttons">
+        <a href="#clubs" class="btn">Join a Club</a>
+        <a href="#ideas" class="btn">Submit Your Idea</a>
+        <a href="#voting" class="btn">Vote Now</a>
+        <a href="#faq" class="btn">Council FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Student Bodies -->
+  <section class="featured-bodies" aria-label="Featured Student Bodies">
+    <h2>Featured Student Bodies</h2>
+    <p>Explore our portfolio of successful student initiatives across campus — delivering real impact through various councils and cells.</p>
+    <div class="body-categories">
+      <a href="#all-bodies" class="body-btn active" data-body="all">All Bodies</a>
+      <a href="#sac" class="body-btn" data-body="sac">SAC</a>
+      <a href="#ueac-nss" class="body-btn" data-body="ueac-nss">UEAC-NSS</a>
+      <a href="#alma-linkages" class="body-btn" data-body="alma-linkages">ALMA LINKAGES</a>
+      <a href="#vsc" class="body-btn" data-body="vsc">VSC</a>
+      <a href="#e-cell" class="body-btn" data-body="e-cell">E-CELL</a>
+      <a href="#ncc" class="body-btn" data-body="ncc">NCC</a>
+      <a href="#arc" class="body-btn" data-body="arc">ARC</a>
+    </div>
+    <div class="body-details">
+      <div class="body-info"></div>
+      <div class="body-image">
+        <img src="https://via.placeholder.com/300" alt="Student Body Image" id="body-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Council Member Spotlights -->
+  <section class="spotlights" aria-label="Council Member Spotlights">
+    <h2>Meet Our Council</h2>
+    <div class="spotlight-grid">
+      <div class="spotlight-card">
+        <img src="member1.jpg" alt="Council Member John Doe" onerror="this.src='https://via.placeholder.com/150';">
+        <h3>John Doe</h3>
+        <p>President</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Action Blocks -->
+  <section class="actions" aria-label="Quick Actions">
+    <h2>Take Action</h2>
+    <div class="action-grid">
+      <a href="#ideas" class="action-card">Submit Idea <span>(124 this month)</span></a>
+      <a href="#voting" class="action-card">Vote Now</a>
+      <a href="#feedback" class="action-card">Submit Feedback</a>
+      <a href="contact.html" class="action-card">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- News Feed -->
+  <section id="news" class="news-feed">
+    <h2>News & Updates</h2>
+    <article class="news-post">
+      <h3>New Club Approved!</h3>
+      <p>Join the Robotics Club for exciting projects.</p>
+      <button class="btn-like">Like</button>
+      <button class="btn-comment">Comment</button>
+    </article>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>How do I join a club?</summary>
+      <p>Visit the Clubs page and select your interest!</p>
+    </details>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Vignan University. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
